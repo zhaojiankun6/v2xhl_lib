@@ -1,0 +1,27 @@
+{
+  "name": "xhl_libv2",
+  "version": "1.0.11",
+  "description": "",
+  "scripts": {
+    "watch": "rollup -wc",
+    "build": "rollup -c"
+  },
+  "main": "xhl-ui/main.js",
+  "module": "xhl-ui/main.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.6.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue": "^2.7.14"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-terser": "^0.4.4",
+    "axios": "^1.6.2",
+    "element-ui": "^2.15.14",
+    "node-sass": "^9.0.0",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
